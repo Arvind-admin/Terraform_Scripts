@@ -3,7 +3,7 @@
  with your key name which  you have in given aws_region.
 */
 variable "aws_region" {
-  default = "ap-south-1"
+  default = "us-east-2"
 }
 variable "vpc_cidr" {
   default = "172.0.0.0/24"
@@ -23,5 +23,5 @@ variable "redhatami" {
   default = "ami-052c08d70def0ac62"
 }
 variable "key_name" {
-  default = "devops"
+  default = "AnsiblePractice"
 }
